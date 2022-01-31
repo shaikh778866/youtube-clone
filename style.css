@@ -1,0 +1,65 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+body{
+    font-family:  roboto,sans-serif;
+}
+.material-icons {
+    color: #969696;
+}
+
+/* <!-- Header Start --> */
+header {
+    /* flex means in single line */
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    height:4.5rem;
+    padding:1rem;
+}
+.header-i{
+    padding: 0 0.5rem;
+    cursor: pointer;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+.header-left-img{
+    padding: 0 04.5rem;
+    cursor:pointer;
+    width:120px;
+    height: auto;
+}
+.header-center form{
+    display: flex;
+    border: 1px,solid,rgb(185, 121, 121);
+    height:2.25rem;
+    margin: 0px;
+    padding: 0px;
+}
+.header-center form input{
+    width: 31.25rem;
+    padding: 10px; 
+    margin: 0px; 
+    border-radius: 0;
+    border:0;
+    height:100%;
+    outline: none;
+}
+.header-center form button{
+    padding: 0; 
+    margin: 0; 
+    border-radius: 0;
+    border:none;
+    height:100%;
+}
+
+/* Header End */
