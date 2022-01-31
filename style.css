@@ -57,9 +57,56 @@ header {
 .header-center form button{
     padding: 0; 
     margin: 0; 
+    width:4rem;
     border-radius: 0;
     border:none;
     height:100%;
 }
 
 /* Header End */
+
+/* Main section start */
+.main{
+    height:cal(100vh-4.5rem);
+    display:flex;
+    overflow: hidden;
+}
+.sidebar{
+    height:100%;
+    width:15rem;
+    background-color: rgb(247, 243, 243);
+    overflow-y: scroll;
+}
+.sidebar-categories{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.sidebar-category{
+    display: flex;
+    align-items: center;
+    padding:0.8rem 1.5rem;
+
+}
+.sidebar-category span{
+    margin-left: 1rem;   
+}
+.sidebar-category.active{
+    background-color: #e0d9d9;
+    cursor:pointer;
+}
+.sidebar-category:hover{
+    background-color: #e5e5e5;
+    cursor:pointer; 
+}
+.sidebar::-webkit-scrollbar{
+    display:none;
+}
+hr{
+    width: 100%;
+    
+}
+
+/* Main section End */
